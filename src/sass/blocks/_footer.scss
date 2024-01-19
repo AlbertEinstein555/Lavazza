@@ -1,0 +1,44 @@
+.footer {
+	padding-bottom: 80px;
+	&__line {
+		border-top: 1px solid #32323D;
+	}
+	&__wrapper {
+		display: flex;
+		justify-content: start;
+		padding-top: 79px;
+	}
+	&__logo {
+		width: 186px;
+		display: flex;
+		justify-content: space-between;
+	}
+	&__img {
+		transform: translateY(-30%);
+	}
+	&__text {
+		color: #f8dabf;
+		font-size: 20px;
+		font-weight: 900;
+		padding-top: 24px;
+	}
+	&__menu,
+	&__info {
+		display: flex;
+		flex-direction: column;
+	}
+	&__menu {
+		margin-left: 221px;
+		margin-right: 306px;
+	}
+	&__link {
+		color: #fff;
+		font-size: 15px;
+		font-weight: 600;
+		margin-bottom: 20px;
+	}
+	&__link:hover {
+		color: $main-color;
+		text-decoration: none;
+	}
+}

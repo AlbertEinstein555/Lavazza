@@ -1,0 +1,28 @@
+.description {
+	padding-top: 100px;
+	&__wrapper {
+		width: 1200px;
+		min-height: 330px;
+		border-radius: 10px;
+		background: #14141d;
+		display: flex;
+	}
+	&__img {
+		display: block;
+	}
+	&__block {
+		padding: 30px 73px 42px 29px;
+	}
+	.title_fz24 {
+		color: #fff;
+		font-size: 24px;
+		font-weight: 900;
+		margin-bottom: 15px;
+		text-transform: uppercase;
+	}
+	&__text {
+		color: #dfdfdf;
+		font-size: 18px;
+		font-weight: 400;
+	}
+}

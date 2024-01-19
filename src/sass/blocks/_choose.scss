@@ -1,0 +1,104 @@
+.choose {
+	padding-top: 100px;
+	&__title {
+		width: 835px;
+		color: #fff;
+		font-size: 60px;
+		font-weight: 900;
+		text-transform: uppercase;
+		margin-bottom: 56px;
+	}
+	&__wrapper {
+		display: flex;
+	}
+	&__product {
+		width: 780px;
+		height: 520px;
+		border-radius: 10px;
+		background: #14141d;
+		padding: 60px 0;
+		margin-right: 19px;
+	}
+	&__img {
+		display: block;
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	&__item {
+		width: 400px;
+		height: 249px;
+		border-radius: 10px;
+		background: #14141d;
+		padding: 30px;
+	}
+	&__price {
+		display: flex;
+		width: 187px;
+		justify-content: space-between;
+	}
+	&__new-price {
+		color: #fff;
+		font-size: 24px;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+	&__old-price {
+		color: #818181;
+		font-size: 24px;
+		font-weight: 400;
+		text-decoration: line-through;
+		text-transform: uppercase;
+	}
+	.tabs {
+		&__caption {
+			display: flex;
+			width: 170px;
+			justify-content: space-between;
+			margin-top: 30px;
+			list-style-type: none;
+			.active {
+				color: $main-color;
+				border-color: $main-color;
+			}
+		}
+		li {
+			width: 50px;
+			height: 50px;
+			color: #fff;
+			font-size: 22px;
+			font-weight: 700;
+			text-transform: uppercase;
+			border-radius: 5px;
+			border: 2px solid #fff;
+			padding: 9px 0;
+			text-align: center;
+		}
+		li:hover {
+			color: #F8DABF;
+			border-color: #F8DABF;
+			box-shadow: 3px 3px #F8DABF;
+			cursor: pointer;
+		}
+	}
+
+	&__link {
+		display: block;
+		width: 340px;
+		height: 50px;
+		color: #fff;
+		font-size: 15px;
+		font-weight: 500;
+		letter-spacing: 1.5px;
+		text-transform: uppercase;
+		border-radius: 10px;
+		padding: 14px 0;
+		text-align: center;
+		margin-top: 30px;
+		background: $main-color;
+		&:hover {
+			text-decoration: none;
+			color: #fff;
+			background: #F8DABF;
+		}
+	}
+}

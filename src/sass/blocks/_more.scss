@@ -1,0 +1,30 @@
+.more {
+    padding: 80px 0;
+    &__title {
+		width: 835px;
+		color: #fff;
+		font-size: 60px;
+		font-weight: 900;
+		text-transform: uppercase;
+		margin-bottom: 56px;
+	}
+    &__item {
+		width: 780px;
+		min-height: 520px;
+		border-radius: 10px;
+		background: #14141d;
+		padding: 60px 30px;
+		margin-right: 19px;
+	}
+	&__img {
+		display: block;
+        max-width: 100%;
+		margin: 0 auto;
+	}
+    &__text {
+        color: #dfdfdf;
+		font-size: 16px;
+		font-weight: 400;
+        margin-top: 20px;
+    }
+}

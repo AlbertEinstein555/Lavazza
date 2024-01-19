@@ -1,0 +1,21 @@
+.about {
+	padding-top: 80px;
+	&__title {
+		color: #fff;
+		font-size: 24px;
+		font-weight: 900;
+		text-transform: uppercase;
+	}
+	&__text {
+		display: block;
+		width: 1200px;
+		height: 267px;
+		border-radius: 10px;
+		background: #14141d;
+		padding: 30px 30px 30px 55px;
+		margin-top: 32px;
+		color: #dfdfdf;
+		font-size: 18px;
+		font-weight: 400;
+	}
+}
